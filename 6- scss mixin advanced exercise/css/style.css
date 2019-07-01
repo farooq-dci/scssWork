@@ -1,0 +1,55 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  border: 3px solid red;
+  height: 70vh;
+}
+
+.container .imagsContainer {
+  position: relative;
+  float: left;
+  height: 70vh;
+  width: 70%;
+  border: 3px solid black;
+}
+
+.container .imagsContainer img:nth-child(1) {
+  width: 35rem;
+  position: absolute;
+  top: 10rem;
+  left: 10rem;
+  outline: 2rem solid green;
+}
+
+.container .imagsContainer img:nth-child(2) {
+  width: 40rem;
+  position: absolute;
+  top: 20rem;
+  left: 20rem;
+  outline: 2rem solid green;
+}
+
+.container .imagsContainer img:nth-child(3) {
+  width: 20rem;
+  position: absolute;
+  top: 10rem;
+  left: 30rem;
+  outline: 2rem solid green;
+}
+
+.container .textContainer {
+  float: left;
+  height: 70vh;
+  width: 30%;
+  border: 3px solid black;
+}
+/*# sourceMappingURL=style.css.map */

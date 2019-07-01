@@ -1,0 +1,17 @@
+.title1, .title3, .title2 {
+  border: 2px solid lightblue;
+  text-decoration: underline;
+}
+
+.title1, .title3 {
+  color: red;
+}
+
+.title2 {
+  color: green;
+}
+
+.title3 {
+  color: blue;
+}
+/*# sourceMappingURL=style1.css.map */

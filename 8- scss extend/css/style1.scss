@@ -1,0 +1,17 @@
+%shared{
+    border: 2px solid lightblue;
+    text-decoration: underline;
+}
+.title1{
+    @extend %shared ;
+    color: red ;
+}
+.title2{
+@extend %shared ;
+color: green;
+}
+.title3{
+    color: blue;
+    @extend .title1 ;
+    
+    }
